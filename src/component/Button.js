@@ -21,7 +21,6 @@ const Button = ({ children, outline, rounded, primary, secondary, success, warni
         'text-yellow-400': outline && warning,
         'text-red-500': outline && danger
     }));
-    console.log(classes);
     return (
         <button
             {...rest}
